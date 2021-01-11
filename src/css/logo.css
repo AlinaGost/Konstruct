@@ -16,7 +16,7 @@
 .logoTriangle {
   position: absolute;
   top: 2.5px;
-  right: 47%;
+  right: 46.5%;
   z-index: 1;
 
   background-image: url("../img/triangle.svg");
@@ -29,7 +29,7 @@
 .logoTriangle__small {
   position: absolute;
   top: 2.5px;
-  left: 9.99%;
+  left: 12%;
 
   height: 16px;
   width: 6px;

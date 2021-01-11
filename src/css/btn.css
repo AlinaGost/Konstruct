@@ -1,0 +1,26 @@
+.btn {
+  width: 10rem;
+  height: 2.66rem;
+  border: none;
+  background-color: #00A4E5;
+  cursor: pointer;
+
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+
+  transition: background-color 0.2s linear;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #0a8bee;
+}

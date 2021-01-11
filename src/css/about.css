@@ -71,7 +71,7 @@
   justify-content: space-between;
   align-items: flex-end;
   width: 60%;
-  padding: 0 50px;
+  padding-left: 50px;;
 }
 
 .about__content--item {
