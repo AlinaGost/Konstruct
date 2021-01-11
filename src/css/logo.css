@@ -1,0 +1,36 @@
+.logoText {
+  position: relative;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 25px;
+  color: #DADADA;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logoText__small {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+.logoTriangle {
+  position: absolute;
+  top: 2.5px;
+  right: 47%;
+  z-index: 1;
+
+  background-image: url("../img/triangle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 9px;
+}
+
+.logoTriangle__small {
+  position: absolute;
+  top: 2.5px;
+  left: 9.99%;
+
+  height: 16px;
+  width: 6px;
+}

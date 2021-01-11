@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+
+  padding-top: 40px;
+  padding-bottom: 70px;
+
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headerTitle {
+  font-family: Bebas Neue, sans-serif;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 5.71px;
+  line-height: 70px;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  margin-top: 380px;
+}
+
+.headerSubtitle {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+
+  margin-bottom: 220px;
+}
+
+.headerFooter {
+  font-family: Open Sans;
+  font-size: 11px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+  text-align: center;
+}
+
