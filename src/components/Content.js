@@ -6,6 +6,7 @@ import Services from "./Services";
 import Connection from "./Connection";
 import NewsLetter from "./Newsletter";
 import Footer from "./Footer";
+import Copyright from "./Copyright";
 
 function Content() {
   return (
@@ -17,6 +18,7 @@ function Content() {
       <Connection/>
       <NewsLetter/>
       <Footer/>
+      <Copyright text="© 2017 Konstruct Inc. Designed by Jane Kathryn Teo"/>
     </div>
   )
 }
