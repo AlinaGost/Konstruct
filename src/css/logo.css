@@ -13,6 +13,11 @@
   text-align: left;
 }
 
+.logoText__footer{
+  text-align: left;
+  margin-bottom: 17px;
+}
+
 .logoTriangle {
   position: absolute;
   top: 2.5px;
@@ -33,4 +38,13 @@
 
   height: 16px;
   width: 6px;
+}
+
+.logoTriangle__footer {
+  position: absolute;
+  top: 6px;
+  left: 28.5%;
+
+  height: 18px;
+  width: 7px;
 }

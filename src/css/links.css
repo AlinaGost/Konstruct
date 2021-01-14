@@ -1,0 +1,29 @@
+.links__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link__item--column-big {
+  width: 40%;
+}
+
+.link__item--column-sm {
+  width: 60%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.link__item {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.link__item:hover {
+  text-decoration: underline;
+}

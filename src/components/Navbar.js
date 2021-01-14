@@ -1,4 +1,5 @@
 import React from "react";
+import {LogoSmall} from "./Logo";
 
 function Navbar() {
   return (
@@ -6,7 +7,7 @@ function Navbar() {
       <div className="container">
         <div className="navbar__inner">
           <div className="navbar__left">
-            <div className="logoText logoText__small"> Konstru  <div className="logoTriangle logoTriangle__small" /> &nbsp; t</div>
+            <LogoSmall/>
           </div>
 
           <div className="navbar__right">

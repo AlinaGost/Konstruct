@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from "./Button";
 
 function Services() {
   return (
@@ -12,7 +13,7 @@ function Services() {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
             </p>
           </div>
-          <button className="btn">All services</button>
+          <Button name="All services"/>
         </div>
 
         <div className="services__content">

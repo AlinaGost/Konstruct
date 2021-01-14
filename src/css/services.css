@@ -61,6 +61,10 @@
   padding: 40px 22px;
 }
 
+.services__content--item:hover {
+  border: 1px solid #a7a3a3;
+}
+
 .services__content--item:not(:last-child) {
   margin-right: 30px;
 }

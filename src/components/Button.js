@@ -2,15 +2,18 @@ import React from "react";
 
 function Button(props) {
    return (
-      <button className="btn">{{}.name}</button>
+      <button className="btn">{props.name}</button>
     )
 }
 
-function BtnCenter(props) {
+function ButtonCenter(props) {
   return (
-    <button className="btn btn--center">{{}.name}</button>
-  )
+    <div className="btn__center">
+      <button className="btn">{props.name}</button>
+    </div>
+    )
+
 }
 
-export {Button, BtnCenter};
+export {Button, ButtonCenter};
 

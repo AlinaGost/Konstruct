@@ -1,0 +1,37 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 30px;
+
+}
+
+.social a {
+  width: 15px;
+  height: 15px;
+
+  transition: transform 0.2s linear;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.social__facebook {
+  background-image: url("../img/facebook.svg");
+  background-size: cover;
+
+  margin-right: 25px;
+}
+
+.social__twitter {
+  background-image: url("../img/twitter.svg");
+  background-size: cover;
+
+  margin-right: 25px;
+}
+
+.social__google {
+  background-image: url("../img/google.svg");
+  background-size: cover;
+}

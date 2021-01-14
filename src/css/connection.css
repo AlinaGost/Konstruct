@@ -1,0 +1,23 @@
+.connection {
+  background-image: url("../img/connection-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 120px 0  240px;
+}
+
+.connection__title {
+  width: 100%;
+  max-width: 350px;
+
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: #48555B;
+
+  margin: 0 auto 46px;
+}
